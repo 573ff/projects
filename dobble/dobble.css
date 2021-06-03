@@ -1,0 +1,47 @@
+body{
+	margin:0px;
+	height: 100%;
+	width: 100%;
+
+	background-color:yellow;
+
+	border: 15px;
+	border-color: purple;
+	border-style: solid;
+
+	box-sizing: border-box; 
+		
+}
+
+.logo{
+	display:flex;
+	flex-direction: column;
+	align-items:center;
+
+}
+
+p{
+	color: black;
+	
+	font-size:large;
+	font-family: Arial;
+	font-style: inherit;
+	font-weight: 600;
+
+	top:50%;
+
+}
+
+button{
+	background-color: yellow;
+	border: none;
+	outline: none;
+	
+	top: 50%;
+}
+
+img{
+	widows: 500px;
+	height: 600px;
+}
+

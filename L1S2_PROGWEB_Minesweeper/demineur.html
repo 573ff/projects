@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+
+<html lang ="en", dir="ltr">
+    
+    <head>
+
+        <meta charset="utf-8">
+        <meta name="description" content="project">
+        <meta name="keywords" content="minesweeper">
+        <meta name="author" content="Stef">
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="demineur.css">
+        <title>Minesweeper</title>
+        <style> </style>
+
+    </head>
+
+    <body>
+        
+        <div id = "head">
+            <header>
+
+                <h1> MINESWEEPER </h1>
+
+            </header>
+        </div>
+
+        <br>
+
+        <p id = "para" > Size of the grid </p>
+
+        <div id = "input_stuff">
+            
+            <div id = "size"> 
+                Columns: <input id="c" type = "number" name ="col"> 
+
+                Lines: <input id = "l" type = "number" name = "line"> 
+
+                Number of mines: <input id = "m" type = "number" name = "mines"> 
+            
+                <input id = "ck" type = "checkbox" name = "debug" > Activate debug mode 
+
+            </div>
+
+        </div>
+
+        <br>
+
+
+        <div class="start_game">
+            <button id="button" type = "button" > Start Game </button>
+        </div>
+        
+        <br>
+       <br>
+        
+        <div class = "game_status">
+            <p id="status" > On going game </p>
+        </div>
+        
+    
+        <div id = "flex">
+            <div id = "grid">  </div>
+        </div>
+
+
+        <br>
+
+        <footer>
+
+            <p> PROG WEB AUTUMN 2019 PROJECT DEMINEUR STEF&NICO </p>
+
+        </footer>
+
+    </body>
+
+    <script src = "demineur.js"></script>
+
+
+</html>
